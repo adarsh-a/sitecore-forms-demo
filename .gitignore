@@ -1,0 +1,15 @@
+/Database/bin
+/Database/obj
+bin
+bin/debug/
+Px.SitecoreForms.Demo/bin
+Px.SitecoreForms.Demo/obj
+obj
+/obj/Debug
+.vs
+
+*.dbmdl
+
+*.jfm
+*.dll
+*.pdb
