@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Sitecore.ExperienceForms">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sitecore9sc.dev.local\bin\Sitecore.ExperienceForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceForms.Analytics">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sitecore9sc.dev.local\bin\Sitecore.ExperienceForms.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceForms.Client">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sitecore9sc.dev.local\bin\Sitecore.ExperienceForms.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceForms.Data.SqlServer">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sitecore9sc.dev.local\bin\Sitecore.ExperienceForms.Data.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceForms.Mvc">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sitecore9sc.dev.local\bin\Sitecore.ExperienceForms.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ExperienceForms.SubmitActions">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sitecore9sc.dev.local\bin\Sitecore.ExperienceForms.SubmitActions.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sitecore9sc.dev.local\bin\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sitecore9sc.dev.local\bin\Sitecore.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sitecore9sc.dev.local\bin\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
