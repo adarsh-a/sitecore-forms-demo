@@ -17,6 +17,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers"
 		CustomFormController.cs = CustomFormController.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Config", "App_Config", "{77BF3A76-7704-4940-88E2-954537BA18DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{0D751EFA-AE7C-41A8-B848-88E3753D5B2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{DEE96801-05F3-42B0-86B9-0077D32CE271}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Px.SitecoreForms", "Px.SitecoreForms", "{F5A67A46-D219-4C78-96D8-A2271EFCB3F2}"
+	ProjectSection(SolutionItems) = preProject
+		Px.SitecoreForms.Demo.config = Px.SitecoreForms.Demo.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +44,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CE74CB9F-3DC1-4049-9115-8435F5EB6324} = {197ED364-AD36-43E0-B4F9-5F2B99F8DA77}
+		{0D751EFA-AE7C-41A8-B848-88E3753D5B2F} = {77BF3A76-7704-4940-88E2-954537BA18DB}
+		{DEE96801-05F3-42B0-86B9-0077D32CE271} = {0D751EFA-AE7C-41A8-B848-88E3753D5B2F}
+		{F5A67A46-D219-4C78-96D8-A2271EFCB3F2} = {DEE96801-05F3-42B0-86B9-0077D32CE271}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78E76EB9-0931-4542-9191-CC17F3B5DE97}
