@@ -28,6 +28,36 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Px.SitecoreForms", "Px.Site
 		Px.SitecoreForms.Demo.config = Px.SitecoreForms.Demo.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{48895064-FE53-4C62-ACFA-3E16BB168C28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormsBuilder", "FormsBuilder", "{639D765F-2D68-4873-B29D-9440FE52AEAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FieldTemplates", "FieldTemplates", "{B5D4FC13-4C8E-4736-9F52-5FF08D8C01F0}"
+	ProjectSection(SolutionItems) = preProject
+		Views\FormBuilder\FieldTemplates\ComplexObject.cshtml = Views\FormBuilder\FieldTemplates\ComplexObject.cshtml
+		Views\FormBuilder\FieldTemplates\PxButton.cshtml = Views\FormBuilder\FieldTemplates\PxButton.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7473CF6B-831B-48AB-8080-F3B9FBE3A816}"
+	ProjectSection(SolutionItems) = preProject
+		Views\Shared\MVC Layout.cshtml = Views\Shared\MVC Layout.cshtml
+		Views\Shared\MVC LayoutThankYou.cshtml = Views\Shared\MVC LayoutThankYou.cshtml
+		Views\Shared\MvcOuterLayout.cshtml = Views\Shared\MvcOuterLayout.cshtml
+		Views\Shared\MvcOuterLayoutThankYou.cshtml = Views\Shared\MvcOuterLayoutThankYou.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rendering", "Rendering", "{B63AE96E-7C6E-4426-8F0F-05F9A742E7AF}"
+	ProjectSection(SolutionItems) = preProject
+		Views\Shared\Rendering\ThankYou.cshtml = Views\Shared\Rendering\ThankYou.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{BEF0FE44-6F70-462B-9DC2-3D4DF4B53A25}"
+	ProjectSection(SolutionItems) = preProject
+		assets\app.js = assets\app.js
+		assets\main.css = assets\main.css
+		assets\main.js = assets\main.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +77,10 @@ Global
 		{0D751EFA-AE7C-41A8-B848-88E3753D5B2F} = {77BF3A76-7704-4940-88E2-954537BA18DB}
 		{DEE96801-05F3-42B0-86B9-0077D32CE271} = {0D751EFA-AE7C-41A8-B848-88E3753D5B2F}
 		{F5A67A46-D219-4C78-96D8-A2271EFCB3F2} = {DEE96801-05F3-42B0-86B9-0077D32CE271}
+		{639D765F-2D68-4873-B29D-9440FE52AEAA} = {48895064-FE53-4C62-ACFA-3E16BB168C28}
+		{B5D4FC13-4C8E-4736-9F52-5FF08D8C01F0} = {639D765F-2D68-4873-B29D-9440FE52AEAA}
+		{7473CF6B-831B-48AB-8080-F3B9FBE3A816} = {48895064-FE53-4C62-ACFA-3E16BB168C28}
+		{B63AE96E-7C6E-4426-8F0F-05F9A742E7AF} = {7473CF6B-831B-48AB-8080-F3B9FBE3A816}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78E76EB9-0931-4542-9191-CC17F3B5DE97}
